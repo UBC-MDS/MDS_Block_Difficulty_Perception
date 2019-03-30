@@ -5,7 +5,7 @@
 
 Question: **Does the educational backgrounds influence MDS student's perception of block difficulty?**
 
-To explore this question, we'll collect educational background information and attitudes towards the block difficulty in the survey. Since block #4 and #5 are the two most stressful blocks for us, with different course contents, we will ask respondent to select the harder block, which will be the perception data.
+To explore this question, we'll collect educational background information and attitudes towards the block difficulty in the survey. Since block #4 and #5 are the two most stressful blocks for us, with different course contents, we will ask respondent to select the harder block, which will be the perception data for analysis.
 
 
 > Identify the other questions you plan to ask in your survey to identify confounding variables and justify/explain why you plan to include them.
