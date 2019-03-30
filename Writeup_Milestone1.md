@@ -24,7 +24,7 @@ Other questions we plan to ask in our survey include:
   - What is your sex?
     - Sex could influence a respondent's preference to learning certain material.
       - Ex. Men prefer the rigorous math of statistics whereas women prefer the elegance of machine learning.
-  - This variable is confounding as a respondent's sex may influence their preference towards different areas.
+    - This variable is confounding as a respondent's sex may influence their preference towards different areas.
 
 > Describe how you plan to analyze the survey results (e.g., what statistical test(s) do you plan to employ?)
 
