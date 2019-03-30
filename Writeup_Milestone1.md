@@ -14,12 +14,12 @@ Other questions we plan to ask in our survey include:
   - What was your last job?
     - Non-educational experience can make certain blocks easier or harder.
       - Ex. A respondent who has an unrelated degree but worked in bio-statistics will find block 4 harder.
-    - This variable is confounding as a respondent's job experience may influence their ability in different areas. 
+    - This variable is confounding as a respondent's job experience may influence their experience in different areas. 
     
   - Which age group do you belong to?
     - Age and life experience can influence a respondents comfort with different topics.
       - Ex. An older respondent may have a more difficult time working with computers and therefore will find block 4 harder.
-    - This variable is confounding as a respondent's age may inluence their comfort in different areas. 
+    - This variable is confounding as a respondent's age may influence their comfort in different areas. 
     
   - What is your sex?
     - Sex could influence a respondent's preference to learning certain material.
