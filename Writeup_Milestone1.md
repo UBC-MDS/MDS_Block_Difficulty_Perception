@@ -3,9 +3,9 @@
 > Identify the question that your team is in interested in answering with the survey. The aim of the survey should be to try to answer one specific and testable question. Examples of specific and testable questions include (you can use one of these if you really like them):
 
 
-Question: **Does the educational backgrounds influence MDS student's perception of block difficulty?**
+Question: **Does the educational background influence MDS student's perception of block difficulty?**
 
-To explore this question, we'll collect educational background information and attitudes towards the block difficulty in the survey. Since block #4 and #5 are the two most stressful blocks for us, with different course contents, we will ask respondent to select the harder block, which will be the perception data for analysis.
+To explore this question, we'll collect educational background information and attitudes towards the block difficulty in the survey. Since block #4 and #5 are the two most stressful blocks for us, with different course contents, we will ask the respondent to select the harder block, which will be the perception data for analysis.
 
 
 > Identify the other questions you plan to ask in your survey to identify confounding variables and justify/explain why you plan to include them.
