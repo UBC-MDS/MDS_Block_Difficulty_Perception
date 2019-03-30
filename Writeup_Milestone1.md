@@ -7,12 +7,24 @@ Question: **Does an MDS student's educational background influence their percept
 
 To explore this question, we'll collect educational background (IV) information and attitudes towards the block difficulty (DV) in the survey. Since block #4 and #5 were considered the two most stressful blocks for us, and included overarching themes in data science and statistics, we will ask the respondent to select the harder block, which will be the perception data for our analysis.
 
-
 > Identify the other questions you plan to ask in your survey to identify confounding variables and justify/explain why you plan to include them.
 
+Other questions we plan to ask in our survey include:
 
-SOMEONE RESPONSE HERE
-
+  - What was your last job?
+    - Non-educational experience can make certain blocks easier or harder.
+      - Ex. A respondent who has an unrelated degree but worked in bio-statistics will find block 4 harder.
+    - This variable is confounding as a respondent's job experience may influence their ability in different areas. 
+    
+  - Which age group do you belong to?
+    - Age and life experience can influence a respondents comfort with different topics.
+      - Ex. An older respondent may have a more difficult time working with computers and therefore will find block 4 harder.
+    - This variable is confounding as a respondent's age may inluence their comfort in different areas. 
+    
+  - What is your sex?
+    - Sex could influence a respondent's preference to learning certain material.
+      - Ex. Men prefer the rigorous math of statistics whereas women prefer the elegance of machine learning.
+  - This variable is confounding as a respondent's sex may influence their preference towards different areas.
 
 > Describe how you plan to analyze the survey results (e.g., what statistical test(s) do you plan to employ?)
 
