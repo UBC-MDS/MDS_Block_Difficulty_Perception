@@ -5,7 +5,7 @@
 
 Question: **Does an MDS student's educational background influence their perception of block difficulty?**
 
-To explore this question, we'll collect educational background (IV) information and attitudes towards the block difficulty (DV) in the survey. Since block #4 and #5 were considered the two most stressful blocks for us, and included overarching themes in data science and statistics, we will ask the respondent to select the harder block, which will be the perception data for our analysis.
+To explore this question, we'll collect educational background (IV) information and attitudes towards the block difficulty (DV) in the survey. Since block #4 and #5 were considered the two most stressful blocks for students, and included overarching themes in machine learning and statistics, we will ask the respondent to select the harder block, which will be the perception data for our analysis.
 
 > Identify the other questions you plan to ask in your survey to identify confounding variables and justify/explain why you plan to include them.
 
@@ -34,6 +34,5 @@ We will utilize a logistic regression model to assess the association between ou
 
 > Discuss the aspects of the UBC Office of Research Ethics document on Using Online Surveys that are relevant to your proposed survey.
 
-
-RESPONSE HERE
+Under FIPPA (Freedom of Information and Protection and Privacy Act), personal information is considered both direct (DOB, SIN #, etc.) and indirect identifiers (postal code, date of birth) or other unique questions that may identify individuals in a small sample. In the context of our study, the only potential direct identifier would be the "last job" question for a few individuals in the cohort who had a unique past occupation. However, this really depends on the level of specificity the participant chooses to provide. With this in mind, we intend to take any precautions necessary to protect individuals if identifiable information is exposed and will anonymize the data where necessary. 
 
