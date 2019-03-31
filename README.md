@@ -10,4 +10,4 @@ How does a persons background influence their perception of difficulty level of 
 | Ting Pan | `@Tinaaa` | [`@panntingg`](https://github.com/panntingg) | [Ting's link](https://github.com/UBC-MDS/)|
 | Rayce Rossum | `@Rayce Rossum` | [`@raycerossum`](https://github.com/raycerossum) | [Rayce's link](https://github.com/UBC-MDS/MDS_Block_Difficulty_Perception/tree/rayce) |
 
-Milestone 1 Release: https://github.com/UBC-MDS/MDS_Block_Difficulty_Perception/releases/tag/1.1
+[Milestone 1 Release](https://github.com/UBC-MDS/MDS_Block_Difficulty_Perception/releases/tag/1.1)
