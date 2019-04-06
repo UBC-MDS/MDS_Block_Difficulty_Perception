@@ -12,7 +12,7 @@
 
 ### Project Overview
 
-Current MDS cohort has students from diverse educational background and work experience. It includes Science, Engineering, Arts and Economics. The students also have work experience from IT, Consulting Services, Retail and Financial industry. Slack channel for MDS program is a proxy indicator of overall sentiment of students trying to get clarity in understanding concepts, completing lab exercises and be able to recognize and apply what they learn during every course block. We decided to traceback a student’s perception of difficulty for courses in a block based their educational background. A previous familiarity with Statistical concepts and programming are a driver in the assessment of such perception.
+The current MDS cohort contains students from diverse educational and employment backgrounds including Science, Engineering, Arts and Economics. The students also have work experience from IT, Consulting Services, Retail and Financial industry. Slack channel for MDS program is a proxy indicator of overall sentiment of students trying to get clarity in understanding concepts, completing lab exercises and be able to recognize and apply what they learn during every course block. We decided to traceback a student’s perception of difficulty for courses in a block based their educational background. Therefore, previous familiarity with statistical concepts or machine learning in computer science may drive perceptual differences in block difficulty. This project is an effort to understand whether this effect exists.
 
 
 **Milestones**
