@@ -1,5 +1,5 @@
 # Milestone 3- Report
-- Rayce Rossum, Alex Hope, Tina Pan, Gopalakrishnan Andivel
+- Rayce Rossum, Alex Hope, Tina Pan, Krish Andivel
 
 ## Question
 
@@ -9,7 +9,7 @@ Block 4 contained coursework on extensive concepts in machine learning, ranging 
 
 Our interest in this experiment was to consider the background of students, and the role this played in their perception of the more difficult block (4 or 5). The background we chose to explore in our survey contained the following questions: Educational Background (Faculty) of last degree, Field/Major, Occupational History (last job held), Age, Sex (Male or Female or Prefer Not to Say), and Block Difficulty (Which was harder? 4 or 5?).
 
-Our hypothesis is that students with a statistics/math/life science background (education or occupation) will rate the machine learning block (Block-4) as the harder block, whereas students with a computer-science background (education or occupation) will rate the statistics block (Block-5) as the more difficult one. We believe there is a relationship between educational focus and efficacy in school, and this can be measured by individual perceptions of difficulty in our outcome question.
+Our hypothesis is that students with a statistics/math/life science background (education or occupation) will rate the machine learning block (Block-4) as the harder block, whereas students with a computer-science background (education or occupation) will rate the statistics block (Block-5) as the more difficult one. We believe there is a relationship between educational focus, occupational history and efficacy in school, and that this can be measured by individual perceptions of difficulty using our outcome question.
 
 
 
@@ -28,3 +28,4 @@ Our hypothesis is that students with a statistics/math/life science background (
   - TODO
 ## Discussion of your Survey/Study design
   - Discuss possible burnout factors and time factors
+  - Perhaps next time we assess difficulty after each block individually, rather than relying on retrospective memory of participants
