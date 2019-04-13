@@ -19,6 +19,31 @@ Our hypothesis is that students with a statistics/math/life science background (
 ### Survey Study Design
 Our survey was designed with six questions we used to gauge a persons background, as well as their perception of whether block 4 or block 5 was more difficult. 
 
+The included questions were:
+
+##### Which faculty is your undergraduate degree from?
+  - This question was categorical including options such as "business" and "science" with the option to add a faculty if we happened to miss one. 
+  - We designed this question to deduce whether experience in one faculty will contribute to more experience in statistics or computer science which would ultimately contribute to perception of difficulty. 
+
+##### What is your undergraduate major?
+  - This question was a free text field which we manually binned. 
+  - We designed this question to differentiate between computer science majors and statistics majors who both fall under the "science" faculty. 
+  
+##### What was your last job?
+  - This question was a free text field which we manually binned.
+  - We designed this question to deduce whether past work experience contributed to the difficulty of block perception.
+  
+##### Which age group do you belong to?
+  - This question was categorical with options in 5 year age groups from 19 - 35+.
+  - We designed to deduce whether or not age was a confounding factor in choice of undergraduate degree or last job.
+  
+##### What is your sex?
+  - This question was categorical with options including "Female", "Male" and "Prefer not to say". 
+  - We designed to deduce whether or not sex was a confounding factor in choice of undergraduate degree or last job.
+
+##### Which block did you find more difficult?
+  - This question was binary with the choices of either block 4 or block 5.
+  - This was our response variable.
 
 ### Data Collection Methods
   - Survey
