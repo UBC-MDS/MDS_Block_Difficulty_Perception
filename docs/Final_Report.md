@@ -1731,7 +1731,22 @@ significant.
 
 ## Discussion of your Survey/Study design
 
-  - Discuss possible burnout factors and time factors
-      - Perhaps next time we assess difficulty after each block
-        individually, rather than relying on retrospective memory of
-        participants
+In retrospect of our study, we considered a few other factors that we
+did not include which may have been better at explaining what affects a
+persons perception of difficulty.
+
+We considered factors such as burnout and time distortion. Our overall
+result states that block 5 was harder simply by raw numbers, regardless
+of educational background or last job.
+
+Block 4 was a difficult block, and was immediately followed by block 5.
+Feedback surveys run by our block representative indicated that many
+students were feeling burnt out after block 4 and into block 5, even
+leading to a decrease in work load at one point. This burn out factor
+may have been a factor in the results. It would be possible to remedy
+this by taking into account burnout factors in the survey.
+
+Block 5 was the most recent block, therefore it’s possible that people
+remember it as being more difficult, but remember less of block 4. It
+would be possible to remedy this by surveying immediately after the
+block.
