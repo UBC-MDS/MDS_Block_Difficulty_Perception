@@ -900,7 +900,7 @@ NA
 Discussion of Results
 ---------------------
 
-TODO: We found that none of the variables are relevant to the perception of block difficult.
+By employing the three models to our data, we find for all our models, none of the variables are relevant to the perception of block difficult. From the model comparisions, adding the IV `last_job` to the model does lead to a significantly improved fit over the `model 1` (only 1 IV faculty). Also, the interaction term of `faculty` and `last_job` is not significant.
 
 Discussion of your Survey/Study design
 --------------------------------------
