@@ -99,8 +99,6 @@ data$sex<- factor(data$sex)
 kable(summary(data))
 ```
 
-
-
 ## Analysis Methods
 - TODO:
 
@@ -196,7 +194,7 @@ kable(tidy(anova(mod2, mod3, test="Chisq")))
 
 ## Discussion of Results
 
-By employing the three models to our data, we find for all our models, none of the variables are relevant to the perception of block difficult. From the model comparisions, adding the IV `last_job` to the model does lead to a significantly improved fit over the `model 1` (only 1 IV faculty). Also, the interaction term of `faculty` and `last_job` is not significant.
+By employing the three models to our data, we find for all our models, none of the variables are relevant to the perception of block difficulty. From the model comparisions, adding the IV `last_job` to the model does lead to a significantly improved fit over `model 1` (only 1 IV `faculty`). Also, the interaction of `faculty` and `last_job` are not significant.
 
 ## Discussion of your Survey/Study design
   - Discuss possible burnout factors and time factors
