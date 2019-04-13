@@ -21,11 +21,7 @@ Bayesian statistics.
 
 Our interest in this experiment was to consider the background of
 students, and the role this played in their perception of the more
-difficult block (4 or 5). The background we chose to explore in our
-survey contained the following questions: Educational Background
-(Faculty) of last degree, Field/Major, Occupational History (last job
-held), Age, Sex (Male or Female or Prefer Not to Say), and Block
-Difficulty (Which was harder? 4 or 5?).
+difficult block (4 or 5).
 
 Our hypothesis is that students with a statistics/math/life science
 background (education or occupation) will rate the machine learning
