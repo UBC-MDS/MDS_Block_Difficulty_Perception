@@ -38,18 +38,11 @@ perceptions of difficulty using our outcome question.
 
 ## Methods
 
-  - Tina
+### Survey Study Design
 
-## Survey Study Design
-
-  - Rayce
-
-## Discussion of your Survey/Study design
-
-  - Discuss possible burnout factors and time factors
-  - Perhaps next time we assess difficulty after each block
-    individually, rather than relying on retrospective memory of
-    participants
+Our survey was designed with six questions we used to gauge a persons
+background, as well as their perception of whether block 4 or block 5
+was more difficult.
 
 ### Data Collection Methods
 
@@ -1541,7 +1534,7 @@ faculty4:last\_job2
     `faculty2` vs `faculty1` in `last_job0`. Similarly, we can intepret
     the corresponding coefficients for the other interaction terms.
 
-#### Chi-square Deviance Test - Comparison of `model 2` and `model 3`
+### Chi-square Deviance Test - Comparison of `model 2` and `model 3`
 
 ``` r
 kable(tidy(anova(mod2, mod3, test="Chisq")))
@@ -1671,3 +1664,10 @@ NA
 
 TODO: We found that none of the variables are relevant to the perception
 of block difficult.
+
+## Discussion of your Survey/Study design
+
+  - Discuss possible burnout factors and time factors
+      - Perhaps next time we assess difficulty after each block
+        individually, rather than relying on retrospective memory of
+        participants
