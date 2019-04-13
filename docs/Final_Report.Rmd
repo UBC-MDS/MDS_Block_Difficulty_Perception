@@ -88,21 +88,43 @@ data$faculty <- factor(data$faculty)
 # faculty = 4: Arts
 
 data$last_job <- factor(data$last_job)
-# last_job = 0: No working experience
+# last_job = 0: Unemployed or N/A
 # last_job = 1: Science
 # last_job = 2: Business
 # last_job = 3: Engineering
-# last_job = 9: Other
+# last_job = 9: Arts
 
 data$sex<- factor(data$sex)
 
 kable(summary(data))
 ```
 
+> faculty = 1: Science
+<br> faculty = 2: Business
+<br> faculty = 3: Engineering
+<br> faculty = 4: Arts
+<br>
+<br> last_job = 0: Unemployed or N/A
+<br> last_job = 1: Science
+<br> last_job = 2: Business
+<br> last_job = 3: Engineering
+<br> last_job = 9: Arts
+
 ## Analysis Methods
 - TODO:
 
 ## Results and Analysis
+
+### EDA
+![](../img/EDA_1.png)
+We can find the overall distribution for each variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and `Sex` above.
+
+![](../img/EDA_2.png)
+
+![](../img/EDA_3.png)
+
+When looking at the `Block_Difficulty` for each group of `Faculty` and `Last_job`, it shows that `Faculty` doesn't affect `Block_Difficulty` much, but `Last_job` does.
+
 ### Model 1: 1 IV (only faculty)
 
 First, fit the simple logistic regression model with just one IV (`faculty`):
@@ -178,7 +200,7 @@ kable(tidy(anova(mod2, mod3, test="Chisq")))
 
 ## Discussion of Results
 
-TODO: We found that none of the variables are relevant to the perception of block difficult.
+By employing the three models to our data, we find for all our models, none of the variables are relevant to the perception of block difficult. From the model comparisions, adding the IV `last_job` to the model does lead to a significantly improved fit over the `model 1` (only 1 IV faculty). Also, the interaction term of `faculty` and `last_job` is not significant.
 
 ## Discussion of your Survey/Study design
   - Discuss possible burnout factors and time factors
