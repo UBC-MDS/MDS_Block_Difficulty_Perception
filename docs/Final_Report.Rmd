@@ -111,13 +111,24 @@ kable(summary(data))
 | Last Job | N/A | Science | Business | Engineering |      | Arts |
 
 ![](../img/EDA_1.png)
-We can find the overall distribution for each variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and `Sex` above.
+
+- We can find the overall distribution for each variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and `Sex` above.
 
 ![](../img/EDA_2.png)
 
 ![](../img/EDA_3.png)
 
-When looking at the `Block_Difficulty` for each group of `Faculty` and `Last_job`, it shows that `Faculty` doesn't affect `Block_Difficulty` much, but `Last_job` does.
+- When looking at the `Block_Difficulty` for each group of `Faculty` and `Last_job`, it shows that `Faculty` doesn't affect `Block_Difficulty` much, but `Last_job` does.
+
+![](../img/EDA_4.png)
+
+![](../img/EDA_5.png)
+
+![](../img/EDA_6.png)
+
+![](../img/EDA_7.png)
+
+- To check the potential confounders, we stratify the `Faculty` and `Last Job` on variables `Age` and `Sex`. The plots above show that `Age` or `Sex` do NOT significantly affect on `Last Job` and `Faculty`.
 
 ### Model 1: 1 IV (only faculty)
 
