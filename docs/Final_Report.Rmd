@@ -99,16 +99,7 @@ data$sex<- factor(data$sex)
 kable(summary(data))
 ```
 
-> faculty = 1: Science
-<br> faculty = 2: Business
-<br> faculty = 3: Engineering
-<br> faculty = 4: Arts
-<br>
-<br> last_job = 0: Unemployed or N/A
-<br> last_job = 1: Science
-<br> last_job = 2: Business
-<br> last_job = 3: Engineering
-<br> last_job = 9: Arts
+
 
 ## Analysis Methods
 - TODO:
@@ -116,6 +107,11 @@ kable(summary(data))
 ## Results and Analysis
 
 ### EDA
+|          | 0   | 1       | 2        | 3           | 4    | 9    |
+|----------|-----|---------|----------|-------------|------|------|
+| Faculty  |     | Science | Business | Engineering | Arts |      |
+| Last Job | N/A | Science | Business | Engineering |      | Arts |
+
 ![](../img/EDA_1.png)
 We can find the overall distribution for each variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and `Sex` above.
 
