@@ -400,9 +400,8 @@ the predictor variable and the block difficulty as the response
 variable. We used log odds ratio to determine association of education
 background to the block 4/5 which is the response variable. We modelled
 the response with only `faculty` and included the `last job` as a
-interacting and non-interacting variable. Chi-Square test were also
-performed in models to detect any improvements on adding additional
-variables.
+interacting and non-interacting variable. We did a Chi-Square test on
+models to detect any improvements on adding additional variables.
 
 ## Results and Analysis
 
