@@ -3,6 +3,9 @@ Milestone 3 - Final Report
 Rayce Rossum, Alex Hope, Tina Pan, Krish Andivel
 April 12, 2019
 
+## Peer Review
+[Peer Review](https://github.com/UBC-MDS/Sustainability_Survey/issues/34)
+
 ## Question
 
 As students in MDS who are completing their degree, we were curious
