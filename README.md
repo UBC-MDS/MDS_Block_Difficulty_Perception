@@ -21,6 +21,8 @@ The current MDS cohort contains students from diverse educational and employment
 
 [Milestone 2 Release](https://github.com/UBC-MDS/MDS_Block_Difficulty_Perception/releases/tag/2.0)
 
+[Milestone 3 Release](https://github.com/UBC-MDS/MDS_Block_Difficulty_Perception/releases/tag/3.0)
+
 **Survey**
 
 [Survey](https://forms.gle/dPWpuvr9SzqmvaAo8)
