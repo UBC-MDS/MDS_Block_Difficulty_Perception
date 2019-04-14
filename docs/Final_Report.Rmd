@@ -112,13 +112,13 @@ kable(summary(data))
 
 ![](../img/EDA_1.png)
 
-- We can find the overall distribution for each variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and `Sex` above.
+- We can find the overall distribution for each variable from histograms of `faculty`, `block_difficulty`, `age` and `sex` above.
 
 ![](../img/EDA_2.png)
 
 ![](../img/EDA_3.png)
 
-- When looking at the `Block_Difficulty` for each group of `Faculty` and `Last_job`, it shows that `Faculty` doesn't affect `Block_Difficulty` much, but `Last_job` does.
+- When looking at the `block_difficulty` for each group of `faculty` and `last_job`, it shows that `faculty` doesn't affect `block_difficulty` much, but `last_job` does.
 
 ![](../img/EDA_4.png)
 
