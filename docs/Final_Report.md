@@ -90,6 +90,12 @@ The included questions were:
   - Survey
   - Manual binning of free text categoricals
 
+<!-- end list -->
+
+    ## Warning: package 'stringr' was built under R version 3.5.2
+
+    ## Warning: package 'kableExtra' was built under R version 3.5.3
+
 <table>
 
 <thead>
@@ -370,7 +376,30 @@ Max. :1.0000
 
 ## Analysis Methods
 
-  - TODO:
+#### Analysis Methods:
+
+Exploratory Data Analysis: The survey response was cleaned up using
+`pandas` library for exploratory analysis (EDA) in `python`. EDA
+involved plotting histogram of count of block difficulty level against
+explanatory. This was done to get an idea of influence of each of the
+explanatory variable on the block difficulty perception.
+
+#### Confounding Variables:
+
+While performing the EDA we also checked for potential confounder
+variables, `Age` and `Sex` on `Faculty` and `Last Job`. Faculty and Last
+job were plotted as histograms and stratified on `Age` and `Sex`.
+
+#### Hypothesis Testing:
+
+We fitted a logistic regression model using the education background as
+the predictor variable and the block difficulty as the response
+variable. We used log odds ratio to determine association of education
+background to the block 4/5 which is the response variable. We modelled
+the response with only `faculty` and included the `last job` as a
+interacting and non-interacting variable. Chi-Square test were also
+performed in models to detect any improvements on adding additional
+variables.
 
 ## Results and Analysis
 
@@ -384,6 +413,17 @@ Max. :1.0000
 ![](../img/EDA_1.png) We can find the overall distribution for each
 variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and
 `Sex` above.
+
+![](../img/str_sex_fac.png)
+
+![](../img/str_age_fac.png)
+
+![](../img/str_age_job.png)
+
+![](../img/str_sex_job.png)
+
+When looking at the above plots for each group of `Faculty` and
+`Last_job`, it does not show any confouding effect from `Age` and `Sex`.
 
 ![](../img/EDA_2.png)
 
@@ -1207,7 +1247,7 @@ faculty3
 
 <td style="text-align:right;">
 
-2797.442205
+2797.442206
 
 </td>
 
@@ -1343,7 +1383,7 @@ last\_job3
 
 <td style="text-align:right;">
 
-3611.482011
+3611.482013
 
 </td>
 
@@ -1445,7 +1485,7 @@ faculty3:last\_job1
 
 <td style="text-align:right;">
 
-2797.442445
+2797.442447
 
 </td>
 
@@ -1479,7 +1519,7 @@ faculty4:last\_job1
 
 <td style="text-align:right;">
 
-3956.180768
+3956.180767
 
 </td>
 
@@ -1513,7 +1553,7 @@ faculty3:last\_job2
 
 <td style="text-align:right;">
 
-2797.442434
+2797.442436
 
 </td>
 
