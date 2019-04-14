@@ -37,7 +37,8 @@ perceptions of difficulty using our outcome question.
 ### Survey Study Design
 
 Our survey was designed with six questions we used to gauge a persons
-background, as well as their perception of whether block 4 or block 5 of MDS was more difficult.
+background, as well as their perception of whether block 4 or block 5
+was more difficult.
 
 The included questions were:
 
@@ -87,10 +88,13 @@ The included questions were:
 ### Data Collection Methods
 
   - Survey
-  - Manual binning of free text categoricals (we made some key decisions here):
-  	- Software engineers were considered science education and computer science and major and not engineering. We feel this is reasonable.
-  	- If a person's last job did not fit cleanly within Science, Business, Engineering, or Arts they were coded with a 9 as `other`.
-  	- We also separated individuals who did not want to provide their last job (coded as 0) from the `other` group (coded as 9) just to be safe.
+  - Manual binning of free text categoricals
+
+<!-- end list -->
+
+    ## Warning: package 'stringr' was built under R version 3.5.2
+
+    ## Warning: package 'kableExtra' was built under R version 3.5.3
 
 <table>
 
@@ -372,7 +376,29 @@ Max. :1.0000
 
 ## Analysis Methods
 
-  - TODO:
+#### Analysis Methods:
+
+Exploratory Data Analysis: The survey response was cleaned up using
+`pandas` library for exploratory analysis (EDA) in `python`. EDA
+involved plotting histogram of count of block difficulty level against
+explanatory. This was done to get an idea of influence of each of the
+explanatory variable on the block difficulty perception.
+
+#### Confounding Variables:
+
+While performing the EDA we also checked for potential confounder
+variables, `Age` and `Sex` on `Faculty` and `Last Job`. Faculty and Last
+job were plotted as histograms and stratified on `Age` and `Sex`.
+
+#### Hypothesis Testing:
+
+We fitted a logistic regression model using the education background as
+the predictor variable and the block difficulty as the response
+variable. We used log odds ratio to determine association of education
+background to the block 4/5 which is the response variable. We modelled
+the response with only `faculty` and included the `last job` as a
+interacting and non-interacting variable. We did a Chi-Square test on
+models to detect any improvements on adding additional variables.
 
 ## Results and Analysis
 
@@ -383,19 +409,33 @@ Max. :1.0000
 | Faculty  |     | Science | Business | Engineering | Arts |      |
 | Last Job | N/A | Science | Business | Engineering |      | Arts |
 
-![](../img/EDA_1.png) We can find the overall distribution for each
-variable from histograms of `Faculty`, `Block_Difficulty`, `Age` and
-`Sex` above.
+![](../img/EDA_1.png)
+
+  - We can find the overall distribution for each variable from
+    histograms of `faculty`, `block_difficulty`, `age` and `sex` above.
 
 ![](../img/EDA_2.png)
 
 ![](../img/EDA_3.png)
 
-When looking at the `Block_Difficulty` for each group of `Faculty` and
-`Last_job`, it shows that `Faculty` doesn’t affect `Block_Difficulty`
-much, but `Last_job` does.
+  - When looking at the `block_difficulty` for each group of `faculty`
+    and `last_job`, it shows that `faculty` doesn’t affect
+    `block_difficulty` much, but `last_job` does.
 
-### Model 1: 1 IV (only faculty)
+![](../img/EDA_4.png)
+
+![](../img/EDA_5.png)
+
+![](../img/EDA_6.png)
+
+![](../img/EDA_7.png)
+
+  - To check the potential confounders, we stratify the `faculty` and
+    `last_job` on variables `age` and `sex`. The plots above show that
+    `age` or `sex` do NOT have a significant affect on `last_job` and
+    `faculty`.
+
+### Model 1: 1 IV (only `faculty`)
 
 First, fit the simple logistic regression model with just one IV
 (`faculty`):
@@ -1209,7 +1249,7 @@ faculty3
 
 <td style="text-align:right;">
 
-2797.442205
+2797.442206
 
 </td>
 
@@ -1345,7 +1385,7 @@ last\_job3
 
 <td style="text-align:right;">
 
-3611.482011
+3611.482013
 
 </td>
 
@@ -1447,7 +1487,7 @@ faculty3:last\_job1
 
 <td style="text-align:right;">
 
-2797.442445
+2797.442447
 
 </td>
 
@@ -1481,7 +1521,7 @@ faculty4:last\_job1
 
 <td style="text-align:right;">
 
-3956.180768
+3956.180767
 
 </td>
 
@@ -1515,7 +1555,7 @@ faculty3:last\_job2
 
 <td style="text-align:right;">
 
-2797.442434
+2797.442436
 
 </td>
 
@@ -1724,18 +1764,12 @@ NA
 
 ## Discussion of Results
 
-Examining the three models used for our data, we find for all our models,
+By employing the three models to our data, we find for all our models,
 none of the variables are relevant to the perception of block
 difficulty. From the model comparisions, adding the IV `last_job` to the
 model does lead to a significantly improved fit over `model 1` (only 1
 IV `faculty`). Also, the interaction of `faculty` and `last_job` are not
-significant. Unfortunately, none of our predictors were satisfactory in differentiating block difficulty. Of course, more data may have been helpful in differentiating some of the effects witnessed in the EDA, however, within the constraints of the survey data was limited.
-
-In addition, when you reference our EDA's, a slight edge can be witnessed in finding block 5 more difficult across all education backgrounds, however, the discrepancies between blocks for each education were quite small. When you shift to last job, we find bigger discrepancies between Non-Responders and Last Jobs tied to Science for which block was tougher, which was undoubtedly block 5. This is intriguing, we had postulated that those in Science, much of which is comprised of computer science would struggle with Block 5 more. The EDA seems to reflect this despite each of our models returning non-significant results.
-
-In general, there were a few components in this study that could have been improved. 
-
-Regarding privacy, the last job question that we asked would have specified a few individuals in particular from our class had they chosen to answer the question. If I could go back I would be more careful with the questions we asked to protect their anonymity.
+significant.
 
 ## Discussion of your Survey/Study design
 
@@ -1758,5 +1792,3 @@ Block 5 was the most recent block, therefore it’s possible that people
 remember it as being more difficult, but remember less of block 4. It
 would be possible to remedy this by surveying immediately after the
 block.
-
-We also could have elaborated further on our confounding variables both in the EDA and considered perhaps 1 more variable that really was tied to our educational and occupational variables of interest in predicting block difficulty. This may have added greater clarity to the effects we found and allowed us to speak more confidently about causal relations between variables of interest. We also don't believe sex is the most useful variable to measure in all honesty, even if it generates effects (which it didn't in this case) to believe that gender differences may have existed in block difficulty perceptions seems a bit naive. As mentioned, choosing different variables related to burnout and time would have hopefully shed insight into our outcome a bit better than this study seemed to reveal, but this was a useful learning experience in the context of study design.
